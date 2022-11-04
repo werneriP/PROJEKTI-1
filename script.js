@@ -34,7 +34,7 @@ function uusiElementti() {
     }
     document.getElementById("inputField").value = "";
     var span = document.createElement("SPAN");
-    var txt = document.createTextNode("x");
+    var txt = document.createTextNode("\uD83D\uDDD1");
     span.className = "close";
     span.appendChild(txt);
     li.appendChild(span);

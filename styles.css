@@ -21,6 +21,7 @@ H1 {
     position: relative;
     min-height: 150px;
     transform: translate(-50%,-50%);
+
 }
 
 .container:after {
@@ -31,10 +32,10 @@ H1 {
 
 
 .addBtn {
-    font-weight: 500;
     font-size: 35px;
     background-color: green;
     color: whitesmoke;
+    text-shadow: #8052ec 2px 2px;
     cursor: pointer;
     outline: none;
     text-align: center;
@@ -75,19 +76,15 @@ ul {
 ul li {
     cursor: pointer;
     position: relative;
-    width: 50%;
+    width: 70%;
     left: 50%;
     list-style-type: upper-roman;
     padding: 15px;
     background: grey;
-    font-size: 30       px;
+    font-size: 30px;
     transform: translate(-50%, -50%);
-
     text-align: center;
     
-
-
-
     -webkit-user-select: none;
     -moz-user-select: none;
     -ms-user-select: none;
